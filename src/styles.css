@@ -1,0 +1,194 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+.overlay {
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 4px;
+}
+
+.overlay .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.chat-box {
+    background-color: white;
+    width: auto;
+    max-width: 29rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+.chat-box .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cbd2d9;
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.5rem;
+}
+
+.chat-box .header .title {
+    padding: 1px;
+    margin-left: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #101111;
+    /* color: #4b5563; */
+}
+
+.chat-box .header .close-button {
+    padding: 1px;
+    margin-right: 6px;
+    cursor: pointer;
+    color: #4b5563;
+}
+
+.chat-box .header .close-button:hover {
+    cursor: pointer;
+    color: #ac2c2c;
+}
+
+.chat-box .messages {
+    height: 19.5rem;
+    overflow-y: auto;
+    margin-bottom: 4px;
+    padding: 1rem;
+}
+
+.chat-box .message .bot-msg {
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.chat-box .message .user-msg {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat-box .message .msg-bubble {
+    padding: 0.5rem;
+    min-width: 6rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+}
+
+.chat-box .message .msg-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-box .message .msg-text {
+    margin-top: 0.5rem;
+}
+
+.chat-box .input-container {
+    display: flex;
+    border: 1px solid #cbd2d9;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.chat-box .input-container .ask-input {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-right: 1px solid #cbd2d9;
+    border-radius: 0 0 0 1rem;
+    outline: none;
+}
+
+.chat-box .input-container .ask {
+    cursor: pointer;
+    color: #3b82f6;
+    padding: 0.5rem;
+}
+
+.chat-box .input-container .ask:hover {
+    color: #2563eb;
+}
+
+.msg-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    overflow: hidden;
+}
+
+.bot-msg .msg-img {
+    margin-right: 0.25rem;
+}
+
+.user-msg .msg-img {
+    margin-left: 0.25rem;
+    order: last;
+}
+
+.bot-msg .msg-bubble {
+    padding: 0.5rem;
+    min-width: 6rem;
+    max-width: 17rem;
+    background-color: #b7bcbe;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.user-msg .msg-bubble {
+    padding: 0.5rem;
+    min-width: 6rem;
+    max-width: 17rem;
+    background-color: #93c5fd;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.msg-info-name {
+    font-weight: 700;
+}
+
+.msg-info-time {
+    font-size: x-small;
+    margin-top: 4px;
+}
+
+.ai-icon {
+    padding: 1.75rem;
+    position: absolute;
+    cursor: pointer;
+    z-index: 20;
+    right: 2rem;
+    bottom: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    transition: background-color 0.3s ease;
+}
+
+.ai-icon:hover {
+    background-color: #2563eb;
+}
+
+.ai-fa {
+    color: white;
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.6rem;
+}
