@@ -1,6 +1,6 @@
 {
-  "name": "smartai-chatbotpkg",
-  "version": "1.0.0",
+  "name": "chatbot-smartai",
+  "version": "1.0.1",
   "description": "UI for chatbot AI",
   "main": "src/index.js",
   "scripts": {
@@ -32,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alkalama/chatbot-package.gitt"
+    "url": "git+https://github.com/alkalama/chatbot-package.git"
   }
 }
