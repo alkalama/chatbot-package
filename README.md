@@ -1,3 +1,3 @@
 # Chatbot package
-<!-- Syntax -->
-<AI isModalOpen={openfunc} setIsModalOpen={closefunc} />
+## Syntax
+``` <AI isModalOpen={openfunc} setIsModalOpen={closefunc} />
