@@ -1,2 +1,3 @@
 # Chatbot package
-```<AI isModalOpen={openfunc} setIsModalOpen={closefunc} />```
+Use 'useState' to control if a pop-up is open. 'isOpen' is true for open, false for closed. Change it with 'setisOpen(true)' to open, 'setisOpen(false)' to close.
+```<AI isModalOpen={isOpen} setIsModalOpen={setIsOpen} />```
