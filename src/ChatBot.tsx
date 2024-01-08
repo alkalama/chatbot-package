@@ -33,10 +33,10 @@ const ChatBot: React.FC<ChatBotProps> = ({ isOpen, onClose }) => {
                 />
               </div>
               <div className="msg-bubble">
-                <div className="msg-info">
+                {/* <div className="msg-info">
                   <div className="msg-info-name font-bold">BOT</div>
                   <div className="msg-info-time text-xs">12:45</div>
-                </div>
+                </div> */}
                 <div className="msg-text">
                   Hey! I'm ChatBot, an automated assistant. How can I help you?
                 </div>
@@ -45,11 +45,11 @@ const ChatBot: React.FC<ChatBotProps> = ({ isOpen, onClose }) => {
 
             <div className="user-msg">
               <div className="msg-bubble">
-                <div className="msg-info">
+                {/* <div className="msg-info">
                   <div className="msg-info-name font-bold">USER</div>
                   <div className="msg-info-time text-xs">12:45</div>
-                </div>
-                <div className="msg-text">message</div>
+                </div> */}
+                <div className="msg-text">User message</div>
               </div>
               {/* <div className="msg-img">
                 <img
@@ -67,10 +67,10 @@ const ChatBot: React.FC<ChatBotProps> = ({ isOpen, onClose }) => {
                 />
               </div>
               <div className="msg-bubble">
-                <div className="msg-info">
+                {/* <div className="msg-info">
                   <div className="msg-info-name font-bold">BOT</div>
                   <div className="msg-info-time text-xs">12:45</div>
-                </div>
+                </div> */}
                 <div className="msg-text">Bot's response</div>
               </div>
             </div>
