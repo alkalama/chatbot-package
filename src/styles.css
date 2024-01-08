@@ -73,12 +73,12 @@
 }
 
 .chat-box .message .bot-msg {
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     display: flex;
 }
 
 .chat-box .message .user-msg {
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     display: flex;
     justify-content: flex-end;
 }
@@ -96,7 +96,7 @@
 }
 
 .chat-box .message .msg-text {
-    margin-top: 0.5rem;
+    margin: 0.1rem;
 }
 
 .chat-box .input-container {
