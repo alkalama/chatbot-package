@@ -109,7 +109,7 @@
     flex: 1;
     padding: 0.5rem;
     margin-right: 0.5rem;
-    border-right: 1px solid #cbd2d9;
+    /* border-right: 1px solid #cbd2d9; */
     border-radius: 0 0 0 1rem;
     outline: none;
 }
@@ -118,12 +118,22 @@
     cursor: pointer;
     color: #3b82f6;
     padding: 0.5rem;
+    border-left: 1px solid #cbd2d9;
 }
 
 .chat-box .input-container .ask:hover {
     color: #2563eb;
 }
+.chat-box .input-container .speak {
+    cursor: pointer;
+    color: #3b82f6;
+    padding: 0.6rem 0.6rem 0.6rem 0rem;
+    /* border-right: 1px solid #cbd2d9; */
+}
 
+.chat-box .input-container .speak:hover {
+    color: #2563eb;
+}
 .msg-img {
     width: 2.5rem;
     height: 2.5rem;
