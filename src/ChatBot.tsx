@@ -85,24 +85,25 @@ const ChatBot: React.FC<ChatBotProps> = ({ isOpen, onClose }) => {
                 />
               </div> */}
                 </div>
-                <div ref={messagesEndRef}></div>
-              </React.Fragment>
-            ))}
-            <div className="bot-msg">
-              <div className="msg-img">
-                <img
-                  src='https://cdn-icons-png.flaticon.com/512/4712/4712139.png'
-                  alt='profile'
-                />
-              </div>
-              <div className="msg-bubble">
-                {/* <div className="msg-info">
+
+                <div className="bot-msg">
+                  <div className="msg-img">
+                    <img
+                      src='https://cdn-icons-png.flaticon.com/512/4712/4712139.png'
+                      alt='profile'
+                    />
+                  </div>
+                  <div className="msg-bubble">
+                    {/* <div className="msg-info">
                   <div className="msg-info-name font-bold">BOT</div>
                   <div className="msg-info-time text-xs">12:45</div>
                 </div> */}
-                <div className="msg-text">Bot's response</div>
-              </div>
-            </div>
+                    <div className="msg-text">Bot's response</div>
+                  </div>
+                </div>
+                <div ref={messagesEndRef}></div>
+              </React.Fragment>
+            ))}
           </div>
         </div>
 
