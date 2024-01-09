@@ -118,10 +118,12 @@ const ChatBot: React.FC<ChatBotProps> = ({ isOpen, onClose }) => {
                 handleSend();
             }}
           />
-          <FontAwesomeIcon
-            className="speak"
-            icon={faMicrophone}
-          />
+          <div className="speakdiv">
+            <FontAwesomeIcon
+              className="speak"
+              icon={faMicrophone}
+            />
+          </div>
           <FontAwesomeIcon
             className="ask"
             icon={faPaperPlane}
