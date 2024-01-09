@@ -1,6 +1,6 @@
 {
   "name": "chatbot-smartai",
-  "version": "1.5.12",
+  "version": "1.5.13",
   "description": "UI for chatbot AI",
   "main": "src/index.js",
   "scripts": {
